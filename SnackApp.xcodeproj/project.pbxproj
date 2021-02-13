@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5561130D25D6912200AFD8E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5561130C25D6912200AFD8E5 /* AppDelegate.swift */; };
+		5561130F25D6912200AFD8E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5561130E25D6912200AFD8E5 /* SceneDelegate.swift */; };
+		5561131125D6912200AFD8E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5561131025D6912200AFD8E5 /* ViewController.swift */; };
+		5561131425D6912200AFD8E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5561131225D6912200AFD8E5 /* Main.storyboard */; };
+		5561131625D6912300AFD8E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5561131525D6912300AFD8E5 /* Assets.xcassets */; };
+		5561131925D6912300AFD8E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5561131725D6912300AFD8E5 /* LaunchScreen.storyboard */; };
+		5561133625D6927000AFD8E5 /* Snack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5561133525D6927000AFD8E5 /* Snack.swift */; };
+		5561134625D6A1D600AFD8E5 /* SnackListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5561134525D6A1D600AFD8E5 /* SnackListViewModel.swift */; };
+		5561140225D7A09200AFD8E5 /* SnackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5561140125D7A09200AFD8E5 /* SnackService.swift */; };
+		5561140925D81BCA00AFD8E5 /* SnackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5561140825D81BCA00AFD8E5 /* SnackCell.swift */; };
+		DD1FF296C4C71D7370C77842 /* Pods_SnackApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338408CE6D25A170B2F1A68C /* Pods_SnackApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01BA90B098AAC8020274B491 /* Pods-SnackApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackApp.release.xcconfig"; path = "Target Support Files/Pods-SnackApp/Pods-SnackApp.release.xcconfig"; sourceTree = "<group>"; };
+		338408CE6D25A170B2F1A68C /* Pods_SnackApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnackApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5561130925D6912200AFD8E5 /* SnackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5561130C25D6912200AFD8E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5561130E25D6912200AFD8E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5561131025D6912200AFD8E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5561131325D6912200AFD8E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5561131525D6912300AFD8E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5561131825D6912300AFD8E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5561131A25D6912300AFD8E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5561133525D6927000AFD8E5 /* Snack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snack.swift; sourceTree = "<group>"; };
+		5561134525D6A1D600AFD8E5 /* SnackListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackListViewModel.swift; sourceTree = "<group>"; };
+		5561140125D7A09200AFD8E5 /* SnackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackService.swift; sourceTree = "<group>"; };
+		5561140825D81BCA00AFD8E5 /* SnackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackCell.swift; sourceTree = "<group>"; };
+		6240710411CDE28162E05010 /* Pods-SnackApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackApp.debug.xcconfig"; path = "Target Support Files/Pods-SnackApp/Pods-SnackApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5561130625D6912200AFD8E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1FF296C4C71D7370C77842 /* Pods_SnackApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20EA24F110B93DDB08FFBE53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				338408CE6D25A170B2F1A68C /* Pods_SnackApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5561130025D6912200AFD8E5 = {
+			isa = PBXGroup;
+			children = (
+				5561130B25D6912200AFD8E5 /* SnackApp */,
+				5561130A25D6912200AFD8E5 /* Products */,
+				BBAE18CC643B7282056E6924 /* Pods */,
+				20EA24F110B93DDB08FFBE53 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5561130A25D6912200AFD8E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5561130925D6912200AFD8E5 /* SnackApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5561130B25D6912200AFD8E5 /* SnackApp */ = {
+			isa = PBXGroup;
+			children = (
+				5561133225D6925300AFD8E5 /* Model */,
+				5561133125D6922A00AFD8E5 /* ViewModel */,
+				5561133025D6922200AFD8E5 /* View */,
+				5561132E25D6921500AFD8E5 /* Resource */,
+				5561131225D6912200AFD8E5 /* Main.storyboard */,
+				5561131525D6912300AFD8E5 /* Assets.xcassets */,
+				5561131725D6912300AFD8E5 /* LaunchScreen.storyboard */,
+				5561131A25D6912300AFD8E5 /* Info.plist */,
+			);
+			path = SnackApp;
+			sourceTree = "<group>";
+		};
+		5561132E25D6921500AFD8E5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5561130C25D6912200AFD8E5 /* AppDelegate.swift */,
+				5561130E25D6912200AFD8E5 /* SceneDelegate.swift */,
+				5561140125D7A09200AFD8E5 /* SnackService.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		5561133025D6922200AFD8E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5561131025D6912200AFD8E5 /* ViewController.swift */,
+				5561140825D81BCA00AFD8E5 /* SnackCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5561133125D6922A00AFD8E5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5561134525D6A1D600AFD8E5 /* SnackListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5561133225D6925300AFD8E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5561133525D6927000AFD8E5 /* Snack.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BBAE18CC643B7282056E6924 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6240710411CDE28162E05010 /* Pods-SnackApp.debug.xcconfig */,
+				01BA90B098AAC8020274B491 /* Pods-SnackApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5561130825D6912200AFD8E5 /* SnackApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5561131D25D6912300AFD8E5 /* Build configuration list for PBXNativeTarget "SnackApp" */;
+			buildPhases = (
+				FC74A09CBE814F220A725C32 /* [CP] Check Pods Manifest.lock */,
+				5561130525D6912200AFD8E5 /* Sources */,
+				5561130625D6912200AFD8E5 /* Frameworks */,
+				5561130725D6912200AFD8E5 /* Resources */,
+				E7D91CD2058583F14D1BDD7A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnackApp;
+			productName = SnackApp;
+			productReference = 5561130925D6912200AFD8E5 /* SnackApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5561130125D6912200AFD8E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5561130825D6912200AFD8E5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 5561130425D6912200AFD8E5 /* Build configuration list for PBXProject "SnackApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5561130025D6912200AFD8E5;
+			productRefGroup = 5561130A25D6912200AFD8E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5561130825D6912200AFD8E5 /* SnackApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5561130725D6912200AFD8E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5561131925D6912300AFD8E5 /* LaunchScreen.storyboard in Resources */,
+				5561131625D6912300AFD8E5 /* Assets.xcassets in Resources */,
+				5561131425D6912200AFD8E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E7D91CD2058583F14D1BDD7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnackApp/Pods-SnackApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnackApp/Pods-SnackApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnackApp/Pods-SnackApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC74A09CBE814F220A725C32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnackApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5561130525D6912200AFD8E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5561131125D6912200AFD8E5 /* ViewController.swift in Sources */,
+				5561130D25D6912200AFD8E5 /* AppDelegate.swift in Sources */,
+				5561140925D81BCA00AFD8E5 /* SnackCell.swift in Sources */,
+				5561133625D6927000AFD8E5 /* Snack.swift in Sources */,
+				5561130F25D6912200AFD8E5 /* SceneDelegate.swift in Sources */,
+				5561140225D7A09200AFD8E5 /* SnackService.swift in Sources */,
+				5561134625D6A1D600AFD8E5 /* SnackListViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5561131225D6912200AFD8E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5561131325D6912200AFD8E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5561131725D6912300AFD8E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5561131825D6912300AFD8E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5561131B25D6912300AFD8E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5561131C25D6912300AFD8E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5561131E25D6912300AFD8E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6240710411CDE28162E05010 /* Pods-SnackApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TUB7TGL6ZY;
+				INFOPLIST_FILE = SnackApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.SnackApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5561131F25D6912300AFD8E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01BA90B098AAC8020274B491 /* Pods-SnackApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TUB7TGL6ZY;
+				INFOPLIST_FILE = SnackApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.SnackApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5561130425D6912200AFD8E5 /* Build configuration list for PBXProject "SnackApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5561131B25D6912300AFD8E5 /* Debug */,
+				5561131C25D6912300AFD8E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5561131D25D6912300AFD8E5 /* Build configuration list for PBXNativeTarget "SnackApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5561131E25D6912300AFD8E5 /* Debug */,
+				5561131F25D6912300AFD8E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5561130125D6912200AFD8E5 /* Project object */;
+}
